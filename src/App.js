@@ -37,21 +37,6 @@ export default function App() {
     return arr;
   }
 
-  // var startTime, endTime;
-
-  // function start(){
-  //   startTime = performance.now();
-  // }
-
-  // function end(){
-  //   endTime = performance.now();
-  //       var timeDiff = endTime - startTime; 
-  //       timeDiff /= 1000; 
-  //       var seconds = Math.round(timeDiff);
-  //      console.log(seconds + " seconds");
-  // }
-  
-
   function rolldice(){
     if(!tenval){
     setvalue(pre=>pre.map(pe=>{
